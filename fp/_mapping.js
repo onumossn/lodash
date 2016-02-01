@@ -3,9 +3,12 @@ exports.aliasToReal = {
   'all': 'some',
   'allPass': 'overEvery',
   'apply': 'spread',
+  'assoc': 'set',
+  'assocPath': 'set',
   'compose': 'flowRight',
   'contains': 'includes',
-  'dissoc': 'omit',
+  'dissoc': 'unset',
+  'dissocPath': 'unset',
   'each': 'forEach',
   'eachRight': 'forEachRight',
   'equals': 'isEqual',
@@ -173,7 +176,8 @@ exports.mutate = {
   },
   'set': {
     'set': true,
-    'setWith': true
+    'setWith': true,
+    'unset': true
   }
 };
 

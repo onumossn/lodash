@@ -23,7 +23,6 @@ var FUNC_ERROR_TEXT = 'Expected a function';
  * say(['fred', 'hello']);
  * // => 'fred says hello'
  *
- * // with a Promise
  * var numbers = Promise.all([
  *   Promise.resolve(40),
  *   Promise.resolve(36)

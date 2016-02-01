@@ -23,7 +23,7 @@ var nativeMax = Math.max;
  * _.indexOf([1, 2, 1, 2], 2);
  * // => 1
  *
- * // using `fromIndex`
+ * // Search from the `fromIndex`.
  * _.indexOf([1, 2, 1, 2], 2, 2);
  * // => 3
  */
